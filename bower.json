@@ -1,0 +1,30 @@
+{
+  "name": "all",
+  "authors": [
+    "Vittorio <vittorio.cadastro@gmail.com>"
+  ],
+  "description": "Testes Mean - MEAN",
+  "main": "server.js",
+  "license": "MIT",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "^1.5.7",
+    "angular-route": "~1.5.3",
+    "angular-resource": "~1.5.3",
+    "angular-ui-router": "^0.3.0"
+  }
+}
