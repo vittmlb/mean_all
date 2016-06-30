@@ -35,7 +35,7 @@ angular.module('produtos').controller('ProdutosController', ['$scope', '$routePa
             if(produto) {
                 produto.$remove(function () {
                     for(var i in $scope.produtos) {
-                        if($scope.produtos(i) === produto) {
+                        if($scope.produtos[i] === produto) {
                             $scope.produtos.splice(i, 1);
                         }
                     }
